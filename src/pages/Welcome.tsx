@@ -1,3 +1,4 @@
+import React from 'react';
 import type { AdviceFor } from '../App';
 
 function WomanSVG() {
@@ -74,7 +75,7 @@ function FamilySVG() {
   );
 }
 
-const OPTIONS: { key: AdviceFor; label: string; Svg: () => JSX.Element }[] = [
+const OPTIONS: { key: AdviceFor; label: string; Svg: () => React.ReactElement }[] = [
   { key: 'myself', label: 'Myself', Svg: WomanSVG },
   { key: 'myself_partner', label: 'Myself + partner', Svg: CoupleSVG },
   { key: 'my_family', label: 'My family', Svg: FamilySVG },
