@@ -11,7 +11,7 @@ function PersonSVG({ type }: { type: string | null }) {
   if (type === 'myself_partner') {
     return (
       <svg viewBox="0 0 180 210" width="170" height="200">
-        {/* Person 1 - man (white top, blue pants) */}
+        {/* Person 1 - man */}
         <ellipse cx="46" cy="205" rx="22" ry="5" fill="rgba(0,0,0,0.12)" />
         <rect x="33" y="125" width="13" height="75" rx="6" fill="#3A5A8A" />
         <rect x="50" y="125" width="13" height="75" rx="6" fill="#3A5A8A" />
@@ -21,13 +21,13 @@ function PersonSVG({ type }: { type: string | null }) {
         <rect x="42" y="56" width="12" height="16" rx="5" fill="#D4956A" />
         <circle cx="48" cy="40" r="20" fill="#D4956A" />
         <ellipse cx="48" cy="24" rx="18" ry="13" fill="#5C3010" />
-        {/* Person 2 - woman (red top, teal pants) */}
+        {/* Person 2 - woman */}
         <ellipse cx="128" cy="205" rx="22" ry="5" fill="rgba(0,0,0,0.12)" />
         <rect x="115" y="125" width="13" height="75" rx="6" fill="#3D7A8A" />
         <rect x="132" y="125" width="13" height="75" rx="6" fill="#3D7A8A" />
-        <rect x="109" y="68" width="46" height="60" rx="12" fill="#C41230" />
-        <rect x="92" y="72" width="18" height="42" rx="9" fill="#C41230" />
-        <rect x="150" y="72" width="18" height="42" rx="9" fill="#C41230" />
+        <rect x="109" y="68" width="46" height="60" rx="12" fill="#1A3A5C" />
+        <rect x="92" y="72" width="18" height="42" rx="9" fill="#1A3A5C" />
+        <rect x="150" y="72" width="18" height="42" rx="9" fill="#1A3A5C" />
         <rect x="124" y="56" width="12" height="16" rx="5" fill="#E0A87A" />
         <circle cx="130" cy="40" r="20" fill="#E0A87A" />
         <ellipse cx="130" cy="24" rx="18" ry="13" fill="#2A1200" />
@@ -42,9 +42,9 @@ function PersonSVG({ type }: { type: string | null }) {
         <ellipse cx="60" cy="205" rx="22" ry="5" fill="rgba(0,0,0,0.12)" />
         <rect x="47" y="125" width="13" height="75" rx="6" fill="#3D7A8A" />
         <rect x="64" y="125" width="13" height="75" rx="6" fill="#3D7A8A" />
-        <rect x="41" y="68" width="46" height="60" rx="12" fill="#C41230" />
-        <rect x="24" y="72" width="18" height="42" rx="9" fill="#C41230" />
-        <rect x="82" y="72" width="18" height="42" rx="9" fill="#C41230" />
+        <rect x="41" y="68" width="46" height="60" rx="12" fill="#1A3A5C" />
+        <rect x="24" y="72" width="18" height="42" rx="9" fill="#1A3A5C" />
+        <rect x="82" y="72" width="18" height="42" rx="9" fill="#1A3A5C" />
         <rect x="56" y="56" width="12" height="16" rx="5" fill="#E0A87A" />
         <circle cx="62" cy="40" r="20" fill="#E0A87A" />
         <ellipse cx="62" cy="25" rx="18" ry="13" fill="#2A1200" />
@@ -54,7 +54,6 @@ function PersonSVG({ type }: { type: string | null }) {
         <rect x="128" y="142" width="10" height="58" rx="5" fill="#5A7A9A" />
         <rect x="142" y="142" width="10" height="58" rx="5" fill="#5A7A9A" />
         <rect x="122" y="100" width="36" height="46" rx="9" fill="#E06030" />
-        {/* Arms raised */}
         <rect x="105" y="88" width="18" height="12" rx="6" fill="#E06030" transform="rotate(-30 105 88)" />
         <rect x="157" y="88" width="18" height="12" rx="6" fill="#E06030" transform="rotate(30 175 88)" />
         <rect x="132" y="90" width="10" height="13" rx="4" fill="#D4956A" />
@@ -69,9 +68,9 @@ function PersonSVG({ type }: { type: string | null }) {
       <ellipse cx="50" cy="205" rx="24" ry="6" fill="rgba(0,0,0,0.12)" />
       <rect x="32" y="125" width="14" height="75" rx="7" fill="#3D7A8A" />
       <rect x="54" y="125" width="14" height="75" rx="7" fill="#3D7A8A" />
-      <rect x="24" y="66" width="52" height="63" rx="13" fill="#C41230" />
-      <rect x="6" y="70" width="20" height="46" rx="10" fill="#C41230" />
-      <rect x="74" y="70" width="20" height="46" rx="10" fill="#C41230" />
+      <rect x="24" y="66" width="52" height="63" rx="13" fill="#1A3A5C" />
+      <rect x="6" y="70" width="20" height="46" rx="10" fill="#1A3A5C" />
+      <rect x="74" y="70" width="20" height="46" rx="10" fill="#1A3A5C" />
       <rect x="42" y="54" width="14" height="17" rx="5" fill="#E0A87A" />
       <circle cx="49" cy="37" r="22" fill="#E0A87A" />
       <ellipse cx="49" cy="22" rx="20" ry="14" fill="#2A1200" />
@@ -97,16 +96,16 @@ export default function FormLayout({ form, children }: FormLayoutProps) {
           <div
             className="absolute inset-0"
             style={{
-              background: '#C41230',
+              background: '#1C1C1C',
               clipPath: 'polygon(0 0, 82% 0, 60% 100%, 0 100%)',
             }}
           />
           <div
             className="absolute inset-0"
             style={{
-              background: '#F0B0C4',
+              background: '#1A3A5C',
               clipPath: 'polygon(40% 0, 100% 0, 100% 52%, 78% 100%, 44% 100%)',
-              opacity: 0.78,
+              opacity: 0.85,
             }}
           />
         </div>

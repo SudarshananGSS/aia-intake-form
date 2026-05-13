@@ -7,9 +7,9 @@ function WomanSVG() {
       <ellipse cx="50" cy="215" rx="26" ry="6" fill="rgba(0,0,0,0.10)" />
       <rect x="31" y="130" width="15" height="80" rx="7" fill="#3D7A8A" />
       <rect x="54" y="130" width="15" height="80" rx="7" fill="#3D7A8A" />
-      <rect x="23" y="68" width="54" height="66" rx="14" fill="#B01025" />
-      <rect x="4" y="73" width="21" height="48" rx="10" fill="#B01025" />
-      <rect x="75" y="73" width="21" height="48" rx="10" fill="#B01025" />
+      <rect x="23" y="68" width="54" height="66" rx="14" fill="#1A3A5C" />
+      <rect x="4" y="73" width="21" height="48" rx="10" fill="#1A3A5C" />
+      <rect x="75" y="73" width="21" height="48" rx="10" fill="#1A3A5C" />
       <rect x="42" y="55" width="15" height="18" rx="5" fill="#E0A87A" />
       <circle cx="50" cy="38" r="23" fill="#E0A87A" />
       <ellipse cx="50" cy="23" rx="21" ry="15" fill="#2A1200" />
@@ -35,9 +35,9 @@ function CoupleSVG() {
       <ellipse cx="138" cy="215" rx="24" ry="5" fill="rgba(0,0,0,0.10)" />
       <rect x="125" y="130" width="14" height="80" rx="6" fill="#3D7A8A" />
       <rect x="143" y="130" width="14" height="80" rx="6" fill="#3D7A8A" />
-      <rect x="118" y="68" width="50" height="66" rx="14" fill="#C41230" />
-      <rect x="99" y="73" width="20" height="48" rx="10" fill="#C41230" />
-      <rect x="163" y="73" width="20" height="48" rx="10" fill="#C41230" />
+      <rect x="118" y="68" width="50" height="66" rx="14" fill="#1A3A5C" />
+      <rect x="99" y="73" width="20" height="48" rx="10" fill="#1A3A5C" />
+      <rect x="163" y="73" width="20" height="48" rx="10" fill="#1A3A5C" />
       <rect x="132" y="55" width="14" height="18" rx="5" fill="#E0A87A" />
       <circle cx="139" cy="38" r="22" fill="#E0A87A" />
       <ellipse cx="139" cy="24" rx="20" ry="14" fill="#2A1200" />
@@ -53,9 +53,9 @@ function FamilySVG() {
       <ellipse cx="62" cy="215" rx="24" ry="5" fill="rgba(0,0,0,0.10)" />
       <rect x="49" y="130" width="14" height="80" rx="6" fill="#3D7A8A" />
       <rect x="67" y="130" width="14" height="80" rx="6" fill="#3D7A8A" />
-      <rect x="42" y="68" width="50" height="66" rx="14" fill="#C41230" />
-      <rect x="23" y="73" width="20" height="48" rx="10" fill="#C41230" />
-      <rect x="87" y="73" width="20" height="48" rx="10" fill="#C41230" />
+      <rect x="42" y="68" width="50" height="66" rx="14" fill="#1A3A5C" />
+      <rect x="23" y="73" width="20" height="48" rx="10" fill="#1A3A5C" />
+      <rect x="87" y="73" width="20" height="48" rx="10" fill="#1A3A5C" />
       <rect x="56" y="55" width="14" height="18" rx="5" fill="#E0A87A" />
       <circle cx="63" cy="38" r="22" fill="#E0A87A" />
       <ellipse cx="63" cy="24" rx="20" ry="14" fill="#2A1200" />
@@ -65,7 +65,6 @@ function FamilySVG() {
       <rect x="139" y="148" width="11" height="62" rx="5" fill="#5A7AAA" />
       <rect x="154" y="148" width="11" height="62" rx="5" fill="#5A7AAA" />
       <rect x="132" y="105" width="40" height="47" rx="10" fill="#E06030" />
-      {/* arms raised */}
       <rect x="112" y="96" width="22" height="12" rx="6" fill="#E06030" transform="rotate(-28 112 96)" />
       <rect x="170" y="96" width="22" height="12" rx="6" fill="#E06030" transform="rotate(28 192 96)" />
       <rect x="143" y="93" width="12" height="15" rx="4" fill="#D4956A" />
@@ -88,11 +87,22 @@ interface WelcomeProps {
 export default function Welcome({ onSelect }: WelcomeProps) {
   return (
     <div className="flex flex-col items-center py-12 px-8 text-center">
-      <h1 className="text-4xl font-bold text-gray-900 mb-5">Welcome to AIA Financial Wellbeing</h1>
-      <button className="inline-flex items-center gap-2 text-sm text-gray-700 bg-gray-100 px-4 py-2 rounded-full mb-10 hover:bg-gray-200 transition-colors">
-        <span className="w-5 h-5 bg-gray-700 text-white rounded-full inline-flex items-center justify-center text-xs font-bold">i</span>
-        Who is AIA Financial Wellbeing?
-      </button>
+      <h1 className="text-4xl font-bold text-gray-900 mb-4">Welcome to Freedom Finance Australia</h1>
+      <p className="text-gray-500 text-sm mb-3">
+        Australia's trusted financial wellbeing advisers
+      </p>
+      <a
+        href="https://ffau.com.au/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-1.5 text-sm text-[#1A3A5C] font-medium hover:underline mb-10"
+      >
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <circle cx="7" cy="7" r="6" stroke="#1A3A5C" strokeWidth="1.3"/>
+          <path d="M7 1c-1.5 2-2 4-2 6s.5 4 2 6M7 1c1.5 2 2 4 2 6s-.5 4-2 6M1 7h12" stroke="#1A3A5C" strokeWidth="1.3" strokeLinecap="round"/>
+        </svg>
+        ffau.com.au
+      </a>
       <h2 className="text-xl font-semibold text-gray-900 mb-10">Who is this advice for?</h2>
       <div className="flex justify-center gap-10 flex-wrap">
         {OPTIONS.map(({ key, label, Svg }) => (
@@ -102,7 +112,7 @@ export default function Welcome({ onSelect }: WelcomeProps) {
             </div>
             <button
               onClick={() => onSelect(key)}
-              className="px-8 py-3 bg-[#C41230] text-white font-semibold rounded-lg hover:bg-[#9E0D24] transition-colors min-w-[160px] text-sm"
+              className="px-8 py-3 bg-[#1C1C1C] text-white font-semibold rounded-lg hover:bg-[#1A3A5C] transition-colors min-w-[160px] text-sm"
             >
               {label}
             </button>

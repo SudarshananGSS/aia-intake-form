@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/formlayout.tsx","./src/components/header.tsx","./src/components/shared.tsx","./src/lib/supabase.ts","./src/pages/basics.tsx","./src/pages/complete.tsx","./src/pages/contact.tsx","./src/pages/financials.tsx","./src/pages/goals.tsx","./src/pages/lifeevents.tsx","./src/pages/welcome.tsx"],"version":"5.9.3"}

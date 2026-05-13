@@ -1,11 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-  --color-aia-red: #C41230;
-  --color-aia-red-dark: #9E0D24;
-  --color-aia-pink: #F0B0C4;
-  --color-aia-pink-light: #FBE8EE;
-  --color-aia-navy: #1B2A4A;
+  --color-ffau-dark: #1C1C1C;
+  --color-ffau-navy: #1A3A5C;
+  --color-ffau-navy-light: #D0DCE8;
+  --color-ffau-gray: #F2F4F6;
   --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 

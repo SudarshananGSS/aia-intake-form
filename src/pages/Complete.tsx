@@ -24,7 +24,7 @@ export default function Complete({ form }: Props) {
         Thanks, {form.firstName}!
       </h1>
       <p className="text-gray-600 text-base max-w-md mb-10">
-        We've received your details and will match you with an AIA Financial Wellbeing adviser shortly. Expect a call{form.preferredContact ? ` during the ${form.preferredContact.toLowerCase()}` : ''}.
+        We've received your details and a Freedom Finance Australia adviser will be in touch shortly. Expect a call{form.preferredContact ? ` during the ${form.preferredContact.toLowerCase()}` : ''}.
       </p>
 
       {/* Summary card */}
@@ -53,7 +53,7 @@ export default function Complete({ form }: Props) {
 
       <button
         onClick={() => window.location.reload()}
-        className="mt-8 px-6 py-3 border-2 border-[#C41230] text-[#C41230] font-semibold rounded hover:bg-red-50 transition-colors text-sm"
+        className="mt-8 px-6 py-3 border-2 border-[#1C1C1C] text-[#1C1C1C] font-semibold rounded hover:bg-gray-100 transition-colors text-sm"
       >
         Start a new submission
       </button>
