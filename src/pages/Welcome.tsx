@@ -65,8 +65,8 @@ function FamilySVG() {
       <rect x="139" y="148" width="11" height="62" rx="5" fill="#5A7AAA" />
       <rect x="154" y="148" width="11" height="62" rx="5" fill="#5A7AAA" />
       <rect x="132" y="105" width="40" height="47" rx="10" fill="#E06030" />
-      <rect x="112" y="96" width="22" height="12" rx="6" fill="#E06030" transform="rotate(-28 112 96)" />
-      <rect x="170" y="96" width="22" height="12" rx="6" fill="#E06030" transform="rotate(28 192 96)" />
+      <rect x="119" y="108" width="15" height="34" rx="7" fill="#E06030" />
+      <rect x="170" y="108" width="15" height="34" rx="7" fill="#E06030" />
       <rect x="143" y="93" width="12" height="15" rx="4" fill="#D4956A" />
       <circle cx="149" cy="78" r="18" fill="#D4956A" />
       <ellipse cx="149" cy="65" rx="16" ry="11" fill="#3D1A00" />
