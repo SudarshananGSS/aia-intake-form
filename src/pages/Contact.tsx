@@ -127,7 +127,7 @@ export default function Contact({ form, onChange, onNext, onBack, submitting, er
           )}
         </span>
         <span className="text-xs text-gray-600 leading-relaxed select-none" onClick={() => onChange({ consent: !form.consent })}>
-          I consent to AIA Financial Wellbeing collecting and using my personal information to contact me about financial wellbeing services, in accordance with the{' '}
+          I consent to Freedom Finance collecting and using my personal information to contact me about financial wellbeing services, in accordance with the{' '}
           <a href="#" className="text-blue-600 underline">Privacy Policy</a>.
           <span className="text-red-500 ml-1">*</span>
         </span>
