@@ -54,8 +54,8 @@ function PersonSVG({ type }: { type: string | null }) {
         <rect x="128" y="142" width="10" height="58" rx="5" fill="#5A7A9A" />
         <rect x="142" y="142" width="10" height="58" rx="5" fill="#5A7A9A" />
         <rect x="122" y="100" width="36" height="46" rx="9" fill="#E06030" />
-        <rect x="105" y="88" width="18" height="12" rx="6" fill="#E06030" transform="rotate(-30 105 88)" />
-        <rect x="157" y="88" width="18" height="12" rx="6" fill="#E06030" transform="rotate(30 175 88)" />
+        <rect x="111" y="103" width="13" height="30" rx="6" fill="#E06030" />
+        <rect x="156" y="103" width="13" height="30" rx="6" fill="#E06030" />
         <rect x="132" y="90" width="10" height="13" rx="4" fill="#D4956A" />
         <circle cx="137" cy="79" r="16" fill="#D4956A" />
         <ellipse cx="137" cy="67" rx="14" ry="10" fill="#3D1A00" />
